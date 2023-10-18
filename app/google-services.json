@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "98452867168",
+    "project_id": "studiindependent-android-ef224",
+    "storage_bucket": "studiindependent-android-ef224.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98452867168:android:395c0e4287183d3fcd5b05",
+        "android_client_info": {
+          "package_name": "id.kiki.siweek9firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "98452867168-pioah641691a9c36k6dij5joauup2p6o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.kiki.siweek9firebase",
+            "certificate_hash": "c6d2ba14df25e1d796cb91a669aeaa1d96c08306"
+          }
+        },
+        {
+          "client_id": "98452867168-cdhfldhpiqknddal71afletisllhsti6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeXtAufuJxtrHWd3pKUUpiKByl2Yiu4kg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "98452867168-cdhfldhpiqknddal71afletisllhsti6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
