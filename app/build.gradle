@@ -9,7 +9,7 @@ plugins {
 
 android {
     namespace 'id.kiki.siweek9firebase'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         applicationId "id.kiki.siweek9firebase"
@@ -43,13 +43,13 @@ dependencies {
     implementation 'com.google.android.material:material:1.10.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
 
-    // Import the Firebase BoM
     implementation platform('com.google.firebase:firebase-bom:32.3.1')
-
-
-    // TODO: Add the dependencies for Firebase products you want to use
-    // When using the BoM, don't specify versions in Firebase dependencies
     implementation 'com.google.firebase:firebase-analytics-ktx'
+    implementation("com.google.firebase:firebase-auth-ktx")
+    implementation("com.google.android.gms:play-services-auth:20.7.0")
+
+    // firestore
+    implementation("com.google.firebase:firebase-firestore-ktx")
 
 
     testImplementation 'junit:junit:4.13.2'
